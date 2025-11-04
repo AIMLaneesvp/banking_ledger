@@ -35,7 +35,6 @@ if not check_password():
     st.stop()
 
 
-st.set_page_config(page_title="Banking Deposits Tracker", page_icon="💼", layout="wide")
 
 MAIN_SHEET = "Main Data"
 CUSTOMER_SHEET = "Customer Summary"
