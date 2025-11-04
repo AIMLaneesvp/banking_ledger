@@ -1,0 +1,17 @@
+# Python cache / venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit secrets (must not be uploaded)
+.streamlit/secrets.toml
+
+# Local Excel / data exports
+*.xlsx
+*.xls
+*.csv
+
+# OS system files
+.DS_Store
+Thumbs.db
